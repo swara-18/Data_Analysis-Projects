@@ -212,6 +212,8 @@ To improve query performance, we carried out the following optimization process:
 - **Graphical Performance Comparison**
     - A graph illustrating the comparison between the initial query execution time and the optimized query execution time after index creation.
     - **Graph view** shows the significant drop in both execution and planning times:
+    -  ![Performance Graph]![image](https://github.com/user-attachments/assets/2fb3f921-d688-43b9-84be-fc9df694f6a4)
+
       ![Performance Graph]![image](https://github.com/user-attachments/assets/1093a4be-51bb-4112-950f-2f5cae9610c9)
 
 
