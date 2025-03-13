@@ -206,13 +206,14 @@ To improve query performance, we carried out the following optimization process:
     - Below is the **screenshot** of the `EXPLAIN` result after index creation:
       ![EXPLAIN After Index]![image]![image](https://github.com/user-attachments/assets/38eba09f-7172-4e10-a52f-f0ca9c67469d)
 
+![image](https://github.com/user-attachments/assets/2d472d7c-c043-409b-a78a-eaf7ef15ec87)
 
 
 - **Graphical Performance Comparison**
     - A graph illustrating the comparison between the initial query execution time and the optimized query execution time after index creation.
     - **Graph view** shows the significant drop in both execution and planning times:
-      ![Performance Graph](![image](https://github.com/user-attachments/assets/49bcc80e-841d-4d5e-a37e-f06356a981a7)
-)
+      ![Performance Graph]![image](https://github.com/user-attachments/assets/1093a4be-51bb-4112-950f-2f5cae9610c9)
+
       ![Performance Graph]
       ![Performance Graph]
 
