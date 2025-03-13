@@ -177,9 +177,6 @@ FROM cte
 ORDER BY 2 DESC
 ```
    
-5. Find tracks where the energy-to-liveness ratio is greater than 1.2.
-6. Calculate the cumulative sum of likes for tracks ordered by the number of views, using window functions.
-
 
 ---
 
@@ -199,7 +196,7 @@ To improve query performance, we carried out the following optimization process:
     - To optimize the query performance, we created an index on the `artist` column. This ensures faster retrieval of rows where the artist is queried.
     - **SQL command** for creating the index:
       ```sql
-create index artist_index on spotify (artist);
+ create index artist_index on spotify (artist);
       ```
 
 - **Performance Analysis After Index Creation**
