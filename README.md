@@ -214,8 +214,6 @@ To improve query performance, we carried out the following optimization process:
     - **Graph view** shows the significant drop in both execution and planning times:
       ![Performance Graph]![image](https://github.com/user-attachments/assets/1093a4be-51bb-4112-950f-2f5cae9610c9)
 
-      ![Performance Graph]
-      ![Performance Graph]
 
 This optimization shows how indexing can drastically reduce query time, improving the overall performance of our database operations in the Spotify project.
 ---
